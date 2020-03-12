@@ -74,7 +74,11 @@ td.evenLink
 {
     background-color:white;
 }
-
+#note
+{
+    color:red;
+    font-size:5px;
+}
 footer
 {
     color:black;
