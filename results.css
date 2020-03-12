@@ -8,6 +8,12 @@ header
     margin-left: 15%;
 }
 
+div.content
+{
+    height:372px;
+    overflow:auto;
+}
+
 #tableHead
 {
     font-size:13px;
