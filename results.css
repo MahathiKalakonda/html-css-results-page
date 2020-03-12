@@ -78,9 +78,9 @@ td.evenLink
 footer
 {
     color:black;
+    position:fixed;
     background-color:powderblue;
     width:100%;
     bottom:35px;
-    position:fixed;
     font-size: 11px;
 }
