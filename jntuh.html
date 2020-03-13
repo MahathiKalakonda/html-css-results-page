@@ -7,13 +7,17 @@
         {
         padding:5px;
         }
-        .server .open-result{
+        .open-result{
+            width:0px;
+            left:150px;
+            height:50px;
+        }
+        .open-result .server{
             position: relative;
-
         }
         .server
         {
-            margin:0px 0px 10px 120px;
+            margin:0px 0px 10px 0px;
             padding:2px 10px;
             width:150px;
             background-color:lightblue;
@@ -38,7 +42,7 @@
             position: absolute;
             bottom:0;
             left:0;
-            width: 100px;
+            width: 120px;
             height:8px;
             background-color: lightgrey;
             color: black;
@@ -65,18 +69,19 @@
 </div>
 <br>
 <div style="width: 100%; height: 210px;background-color:white;">
-    <div style="width: 30%; height: 150px; float:left;background-color:white;padding:30px 0px;">
+    <div style="width:13%;height: 150px; float:left;background-color:white;"></div>
+    <div style="width:18%; height: 150px; float:left;background-color:white;padding:30px 0px;">
         <div class="open-result">
-            <button align="center" onclick="window.location.href = '/Users/KMahathi/html-css-results-page/resultsList.html';" class="server" class="link">Results Server-I</button>
-            <span class="linkText">Opens resultsList.html</span>
+            <button align="center" onclick="window.location.href = '/Users/KMahathi/html-css-results-page/resultsList.html';" class="server" class="link" value="Results Server-I">Results Server-I</button>
+            <span class="linkText">Opens resultsList in server1</span>
         </div>
         <div class="open-result">
             <button align="center" onclick="window.location.href = '/Users/KMahathi/html-css-results-page/resultsList.html';" class="server" class="link">Results Server-II</button>
-            <span class="linkText">Opens resultsList.html</span>
+            <span class="linkText">Opens resultsList in server2</span>
         </div>
         <div class="open-result">
             <button align="center" onclick="window.location.href = '/Users/KMahathi/html-css-results-page/resultsList.html';" class="server" class="link">Results Server-III</button>
-            <span class="linkText">Opens resultsList.html</span>
+            <span class="linkText">Opens resultsList in server3</span>
         </div>
     </div>
     <div style="border-left: 1px solid lightgrey;height: 165px;float:left;margin-top:24px;"></div>
