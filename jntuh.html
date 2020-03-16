@@ -7,14 +7,17 @@
         {
         padding:5px;
         }
-        .open-result{
+
+        .openResult{
             width:0px;
             left:150px;
             height:50px;
         }
-        .open-result .server{
+
+        .openResult .server{
             position: relative;
         }
+
         .server
         {
             margin:0px 0px 10px 0px;
@@ -26,6 +29,7 @@
             font-size:15px;
             position:relative;
         }
+
         .infoButton
         {
             margin:0px 150px 10px 0px;
@@ -35,6 +39,7 @@
             color:blue;
             height:40px;
         }
+
         .linkText
         {
             display:none;
@@ -49,9 +54,11 @@
             text-align: center;
             padding: 4px 0px;
         }
-        .open-result:hover .linkText {
+
+        .openResult:hover .linkText {
             display: block;
         }
+
         :hover
         {
             color:black;
@@ -71,15 +78,15 @@
 <div style="width: 100%; height: 210px;background-color:white;">
     <div style="width:13%;height: 150px; float:left;background-color:white;"></div>
     <div style="width:18%; height: 150px; float:left;background-color:white;padding:30px 0px;">
-        <div class="open-result">
+        <div class="openResult">
             <button align="center" onclick="window.location.href = '/Users/KMahathi/html-css-results-page/resultsList.html';" class="server" class="link" value="Results Server-I">Results Server-I</button>
             <span class="linkText">Opens resultsList in server1</span>
         </div>
-        <div class="open-result">
+        <div class="openResult">
             <button align="center" onclick="window.location.href = '/Users/KMahathi/html-css-results-page/resultsList.html';" class="server" class="link">Results Server-II</button>
             <span class="linkText">Opens resultsList in server2</span>
         </div>
-        <div class="open-result">
+        <div class="openResult">
             <button align="center" onclick="window.location.href = '/Users/KMahathi/html-css-results-page/resultsList.html';" class="server" class="link">Results Server-III</button>
             <span class="linkText">Opens resultsList in server3</span>
         </div>
