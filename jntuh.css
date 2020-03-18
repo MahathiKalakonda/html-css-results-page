@@ -1,8 +1,38 @@
+body
+{
+    background-color:steelblue;
+}
+
 #headerDivision
 {
     white-space: pre;
     margin-right:200px;
     text-align:center;
+}
+
+#mainHeading
+{
+    color:gold;
+    font-size:20px;
+}
+
+#subHeading1
+{
+    color:white;
+    font-size:14px;
+}
+
+#subHeading2
+{
+    color:lightgrey;
+    font-size:8px;
+}
+
+#mainDivision
+{
+    width: 100%;
+    height: 210px;
+    background-color:white;
 }
 
 .serversDivision
@@ -60,6 +90,27 @@ table
     padding:30px 10px;
 }
 
+#visionHeading
+{
+    font-size:11px;
+    color:red;
+}
+
+#visionContent
+{
+    font-size:10.5px;
+    align: justify;
+}
+
+#infoButtonsDivision
+{
+    width: 30%;
+    height: 150px;
+    float:left;
+    background-color:white;
+    padding:30px 3px;
+}
+
 .infoButton
 {
     margin:0px 150px 10px 0px;
@@ -93,4 +144,16 @@ table
 :hover
 {
     color:black;
+}
+
+#addressDivision
+{
+    text-align:center;
+    white-space: pre;
+}
+
+.address
+{
+    color:white;
+    font-size:10px;
 }
