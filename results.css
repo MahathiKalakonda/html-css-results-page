@@ -25,7 +25,7 @@ div.content
     color:white;
     font-family:Courier New;
     font-size : 20px;
-    align:center;
+    text-align:center;
 }
 
 #subHeading
@@ -34,6 +34,7 @@ div.content
     font-family: helvetica;
     font-style:lighter;
     color:white;
+    text-align:center;
 }
 td.oddLine
 {
@@ -88,11 +89,14 @@ button
     align:center;
     font-size:8px;
 }
+
 #note
 {
     color:red;
     font-size:5px;
+    text-align:center;
 }
+
 footer
 {
     color:black;
@@ -101,4 +105,5 @@ footer
     width:100%;
     bottom:35px;
     font-size: 11px;
+    text-align:center;
 }
