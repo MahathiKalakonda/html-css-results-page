@@ -8,16 +8,16 @@ header
     margin-left: 15%;
 }
 
-div.content
-{
-    height:372px;
-    overflow:auto;
+table{
+margin-left:auto;
+margin-right:auto;
 }
 
 #tableHead
 {
     font-size:13px;
     font-family:calibri;
+    text-align:center;
 }
 
 #mainHeading
@@ -36,7 +36,28 @@ div.content
     color:white;
     text-align:center;
 }
-td.oddLine
+
+#notifications
+{
+    width: 28%;
+    height: 100%;
+    float:left;
+}
+
+#courses
+{
+    width: 72%;
+    height: 100%;
+    float:right;
+}
+
+table.course
+{
+    width:90%;
+    align-table:center;
+}
+
+.oddLine
 {
     font-style:arial;
     font-weight:bold;
@@ -44,7 +65,7 @@ td.oddLine
     background-color:skyblue;
 }
 
-td.evenLine
+.evenLine
 {
     font-style:arial;
     font-weight:bold;
@@ -65,28 +86,86 @@ td
 {
     background-color:powderblue;
     font-size : 14px;
+    text-align:center;
 }
 
-div.links
+links
 {
     padding : 20px 25px;
+    width:95%;
+    height:90%;
 }
 
-td.oddLink
+.content
+{
+    height:372px;
+    overflow:auto;
+    width: 72%;
+    float:right;
+}
+
+.studentDetails .row1-3
+{
+    width:100px;
+}
+
+.studentDetails .row2
+{
+    width:200px;
+}
+
+.studentDetails .row4
+{
+    width:120px;
+}
+
+.studentGrades .row1
+{
+    width:100px;
+}
+
+.studentGrades .row2
+{
+    width:300px;
+}
+
+.studentGrades .row3-4
+{
+    width:60px;
+}
+
+.gradeRules .row1
+{
+    width:155px;
+}
+
+.gradeRules .row2
+{
+    width:100px;
+}
+
+.gradeRules .row3
+{
+    width:35px;
+}
+
+.oddLink
 {
     background-color:lightgray;
+    text-align:center;
 }
 
-td.evenLink
+.evenLink
 {
     background-color:white;
+    align:center;
 }
 button
 {
     display: block;
     margin: auto;
     padding:2px 6px;
-    align:center;
+    text-align:center;
     font-size:8px;
 }
 
